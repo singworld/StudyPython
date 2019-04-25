@@ -1,15 +1,36 @@
-# 项目描述：根据嵌套 for 循环生成九九乘法表 
+# 项目实战一
+# 项目描述：根据嵌套 for 循环生成九九乘法表
 # 提示：
 # 根据九九乘法表的规律，找到两个
 # for 循环的边界值
 # 使用range()函数生成数字集合
 
-# for i in range(1,10):
-#     for j in range(1,i+1):
-#         print(f'{j}*{i}',end=' ')
-#     print('')
+for i in range(1,10):
+    for j in range(1,i+1):
+        print(f'{j}*{i}',end=' ')
+    print('')
 
 
+# 项目实战二，打印图
+# *
+# ***
+# *****
+# *******
+# *****
+# ***
+# *
+# 使用两个 for 循环
+# 找对 in 后面的边界值，使用range()
+for i in range(1,8,2) :
+    for j in range(i):
+        print('*',end=' ')
+    print('')
+for i in range(5,0,-2) :
+    for j in range(i):
+        print('*',end=' ')
+    print('')
+
+# 项目实战三
 # |---欢迎进入通讯录程序---|
 # |---1、 查询联系人资料---|
 # |---2、 插入新的联系人---|
