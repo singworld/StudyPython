@@ -21,6 +21,8 @@ files = os.listdir(path)
 # os.remove(os.path.join(path,'b.md'))
 print('执行删除前的文件')
 print(files)
+
+
 ## 创建删除文件函数
 def removeFile(*fileNames):
     for fileName in fileNames:
